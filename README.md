@@ -1,5 +1,6 @@
 # Social-Network
 A MERN stack app.<br />
+You can have a look at it https://merncms.herokuapp.com/
 
 ### Wanna try it in local?
 Clone the repo.
