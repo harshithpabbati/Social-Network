@@ -54,8 +54,8 @@ class Register extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-8 m-auto">
-              <h1 className="display-4 text-center">Sign Up</h1>
-              <p className="lead text-center">
+              <h1 className="display-4 text-center text-color">Sign Up</h1>
+              <p className="lead text-center text-color">
                 Create your account
               </p>
               <form noValidate onSubmit={this.onSubmit}>

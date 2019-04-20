@@ -189,7 +189,7 @@ class CreateProfile extends Component {
               <Link to="/dashboard" className="btn btn-light">
               <i class="fas fa-arrow-left"></i>
               </Link>
-              <h1 className="display-4 text-center">Edit Your Profile</h1>
+              <h1 className="display-4 text-center text-color">Edit Your Profile</h1>
               <small className="d-block pb-3">* = required fields</small>
               <form onSubmit={this.onSubmit}>
                 <TextFieldGroup
