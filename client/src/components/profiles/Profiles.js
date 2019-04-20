@@ -35,7 +35,9 @@ class Profiles extends Component {
               <p className="lead text-center text-color">
                 Browse and connect with them.
               </p>
-              {profileItems}
+              <div className="col-md-12">
+                {profileItems}
+              </div>
             </div>
           </div>
         </div>
@@ -52,5 +54,4 @@ Profiles.propTypes = {
 const mapStateToProps = state => ({
   profile: state.profile
 });
-
 export default connect(mapStateToProps, { getProfiles })(Profiles);
