@@ -31,8 +31,8 @@ class Profiles extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="display-4 text-center">User Profiles</h1>
-              <p className="lead text-center">
+              <h1 className="display-4 text-center text-color">User Profiles</h1>
+              <p className="lead text-center text-color">
                 Browse and connect with them.
               </p>
               {profileItems}

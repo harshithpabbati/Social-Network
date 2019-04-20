@@ -18,12 +18,12 @@ class Navbar extends Component {
     const authLinks = (
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
-          <Link className="nav-link text-white" to="/feed">
+          <Link className="nav-link text-color" to="/feed">
             Post Feed
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link text-white" to="/dashboard">
+          <Link className="nav-link text-color" to="/dashboard">
             Dashboard
           </Link>
         </li>
@@ -31,14 +31,13 @@ class Navbar extends Component {
           <a
             href=""
             onClick={this.onLogoutClick.bind(this)}
-            className="nav-link text-white"
+            className="nav-link text-color"
           >
             <img
               className="rounded-circle"
               src={user.avatar}
               alt={user.name}
               style={{ width: '25px', marginRight: '5px' }}
-              title="You must have a Gravatar connected to your email to display an image"
             />{' '}
             Logout
           </a>
@@ -49,12 +48,12 @@ class Navbar extends Component {
     const guestLinks = (
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
-          <Link className="nav-link text-white" to="/register">
+          <Link className="nav-link text-color" to="/register">
             Sign Up
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link text-white" to="/login">
+          <Link className="nav-link text-color" to="/login">
             Login
           </Link>
         </li>
@@ -62,9 +61,9 @@ class Navbar extends Component {
     );
 
     return (
-      <nav className="navbar navbar-expand-sm navbar-dark bg-primary mb-4">
+      <nav className="navbar navbar-expand-sm mb-4">
         <div className="container">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand text-color" to="/">
             Social Network
           </Link>
           <button
@@ -79,7 +78,7 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="mobile-nav">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <Link className="nav-link text-white" to="/profiles">
+                <Link className="nav-link text-color" to="/profiles">
                   {' '}
                   Profiles
                 </Link>
