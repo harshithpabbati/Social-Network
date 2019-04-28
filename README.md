@@ -1,3 +1,4 @@
+![social-network](https://raw.githubusercontent.com/Harshithpabbati/Social-Network/master/client/src/img/social-network.png)
 # Social-Network
 A MERN stack app.<br />
 You can have a look at it https://merncms.herokuapp.com/
